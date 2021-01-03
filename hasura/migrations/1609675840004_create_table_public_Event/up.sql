@@ -1,0 +1,1 @@
+CREATE TABLE "public"."Event"("id" integer NOT NULL, "title" text NOT NULL, "time" timestamp with time zone NOT NULL, "description" text NOT NULL, "questions" jsonb DEFAULT jsonb_build_array(), "picture" text, "survey_time" integer, PRIMARY KEY ("id") );

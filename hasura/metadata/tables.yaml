@@ -1,0 +1,47 @@
+- table:
+    schema: public
+    name: Attendee
+  object_relationships:
+  - name: event
+    using:
+      foreign_key_constraint_on: event_id
+- table:
+    schema: public
+    name: Event
+  object_relationships:
+  - name: host
+    using:
+      foreign_key_constraint_on: host_id
+  array_relationships:
+  - name: attendees
+    using:
+      foreign_key_constraint_on:
+        column: event_id
+        table:
+          schema: public
+          name: Attendee
+  - name: resources
+    using:
+      foreign_key_constraint_on:
+        column: event_id
+        table:
+          schema: public
+          name: Resources_Data
+- table:
+    schema: public
+    name: Resources_Data
+  object_relationships:
+  - name: event
+    using:
+      foreign_key_constraint_on: event_id
+- table:
+    schema: public
+    name: User
+  array_relationships:
+  - name: events
+    using:
+      foreign_key_constraint_on:
+        column: host_id
+        table:
+          schema: public
+          name: Event
