@@ -1,9 +1,11 @@
 
-# team4-advocacy
-**Please branch off the dev branch!!**
-GraphQL Endpoint for `master`/production: https://empowering-social-advocacy.herokuapp.com/v1/graphql
-* Public website (based on `master` branch): https://social-advocacy.netlify.app/
-Authentication will be added later.
+# Resource Assigment Functionality for In-session Events
+**What this code sample does and how it solves a real problem**
+During an online event, a host can post multiple resources to help attendees better understand the lesson. Each resource consists of a name, URL(optional), and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource, but currently, they have the same permission as the host for the sake of simplicity.
+
+**How it works**
+
+
 ## Setting Up 
 You will have to set up **Docker, Hasura, Node and React**.
 1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/)
@@ -38,14 +40,6 @@ There are three components to our stack: front-end, GraphQL and business logic.
 * GraphQL is run on **Hasura**. In order to develop a local Hasura environment, you must have a **Docker** container running GraphQL Engine locally. 
   * Docker will help us develop in our own localized Hasura environment, no need to access a Heroku endpoint.
   * We will use Hasura only for CRUD actions in GraphQL. No database or backend server needed!
-* Our business logic is run on a **Node-Express** server. This server will run Hasura Actions. Any CRUD operations associated with our Actions' business logic will also be triggered within this server.
-  * For some functionalities, just having access to CRUD is not enough. Some examples being:
-    * Emailing a person who just signed up on our platform
-    * User authentication - check that their username and password is valid
-  * Hasura Actions give us the opportunity to execute business logic alongside any Hasura CRUD operations.
-  * Business logic will be handled in this Node server
-  
-  
-  
-GraphQL Endpoint for `dev`: https://social-advocacy.herokuapp.com/v1/graphql
-* Dev website (based on `dev` branch): https://social-advocacy-dev.netlify.app/
+
+
+GraphQL Endpoint: https://white-jupiter.hasura.app/v1/graphql
