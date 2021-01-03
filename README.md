@@ -28,7 +28,3 @@ All relative to project root directory
 There are 3 components to the stack of my real app: Front-end, GraphQL and business logic (run on Node), but for now Front-end and Hasura are enough for this code sample.
 * Front-end is run on **React**
 * GraphQL is run on **Hasura**.
-
-
-GraphQL Endpoint: https://white-jupiter.hasura.app/v1/graphql
-
