@@ -14,7 +14,7 @@ Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres
 
 
 ## Setting Up 
-You will have to set up **Hasura and React**.
+You will have to set up **Hasura and React** to run this code sample.
 1. Set up Hasura database migrations: https://hasura.io/docs/1.0/graphql/manual/migrations/config-v1/manage-migrations.html#manage-migrations-v1 (use notes for this section as some of the steps are not needed)
    * Note for step 2, I already have a hasura folder in the repo, so just run `cd hasura`
    * Skip step 3 because I already provided you with a migrations folder and files 
