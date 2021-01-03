@@ -1,5 +1,10 @@
 
-# Resource Assigment Functionality for In-session Events
+# Resource Assigment Functionality for Events - Dawn App
+**Websites**
+
+Code Sample: 
+Project Landing Page: https://dawn.so
+
 **What this code sample does**
 
 During an online event, a host can post multiple resources to help attendees better understand the lesson. Each resource consists of a name, URL, and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource, but currently, they have the same permission as the host for the sake of simplicity.
