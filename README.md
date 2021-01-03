@@ -1,7 +1,9 @@
 
-# Resource Assigment Functionality for Events - Dawn App
+# Resource Assigment Functionality for Events - Dawn Project
 
-Project Landing Page: https://dawn.so
+In order to run this code sample, you have to set up React and Hasura (instructions below)
+
+Dawn Project Landing Page: https://dawn.so
 
 **What this code sample does**
 
