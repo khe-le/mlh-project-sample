@@ -31,3 +31,4 @@ There are 3 components to the stack of my real app: Front-end, GraphQL and busin
 
 
 GraphQL Endpoint: https://white-jupiter.hasura.app/v1/graphql
+
