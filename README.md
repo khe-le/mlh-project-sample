@@ -5,6 +5,7 @@
 During an online event, a host can post multiple resources to help attendees better understand the lesson. Each resource consists of a name, URL, and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource, but currently, they have the same permission as the host for the sake of simplicity.
 
 **How it works**
+
 Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL subscription query. Whenever a resource is added or removed on the frontend, the page uses the GraphQL mutation queries to update the Hasura database. No backend server is needed.
 
 
