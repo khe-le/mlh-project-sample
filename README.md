@@ -1,8 +1,6 @@
 
 # Resource Assigment Functionality for Events - Dawn App
-**Websites**
 
-Code Sample: 
 Project Landing Page: https://dawn.so
 
 **What this code sample does**
