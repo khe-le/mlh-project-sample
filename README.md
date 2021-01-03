@@ -24,7 +24,7 @@ All relative to project root directory
 * Start React in another terminal: `npm start`
   * Should be on port 3000 
 ## Tech Stack
-There are 3 components to the stack of my real app: React front-end, GraphQL and business logic(run on Node), but for now React and Hasura are enough for this code sample.
+There are 3 components to the stack of my real app: Front-end, GraphQL and business logic (run on Node), but for now Front-end and Hasura are enough for this code sample.
 * Front-end is run on **React**
 * GraphQL is run on **Hasura**.
 
