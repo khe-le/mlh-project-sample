@@ -2,7 +2,7 @@
 # Resource Assigment Functionality for Events
 
 This is a code sample from my current project.
-Dawn Project Landing Page: https://dawn.so
+The project's landing page: https://dawn.so
 
 **What this code sample does**
 
