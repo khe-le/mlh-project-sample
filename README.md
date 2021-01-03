@@ -1,5 +1,5 @@
 
-# Resource Assigment Functionality for Events - Dawn Project
+# Resource Assigment Functionality for Events
 
 This is a code sample from my current project.
 Dawn Project Landing Page: https://dawn.so
