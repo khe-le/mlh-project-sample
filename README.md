@@ -1,7 +1,7 @@
 
 # Resource Assigment Functionality for Events
 
-This is a code sample from my current project.
+This is a code sample from my group project.
 The project's landing page: https://dawn.so
 
 **What this code sample does**
