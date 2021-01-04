@@ -31,5 +31,5 @@ All relative to project root directory
   * Should be on port 3000 
 ## Tech Stack
 There are 3 components to the stack of my real app: Front-end, GraphQL and business logic, but for now, Front-end and Hasura are enough for this code sample.
-* Front-end is run on **React**
+* Front-end is run on **React** and written in Typescript in the actual app.
 * GraphQL is run on **Hasura**.
