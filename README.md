@@ -10,7 +10,7 @@ During an online event, a host can post multiple resources to help attendees bet
 
 **How it works**
 
-Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL Subscription query. Whenever a resource is added or removed on the frontend, the page generates GraphQL Mutation queries to update the Hasura database. No backend server is needed. On the Hasura console, I also set up a future database schema for the full functionality, but I only use part of it for this code sample.
+Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL Subscription query. Whenever a resource is added or removed on the frontend, the page generates GraphQL Mutation queries to update the database. No backend server is needed. On the Hasura console at http://localhost:9695/console/data/schema/public, I also set up a database schema with tables related to event information, but this sample only concerns with the table Resources_Data.
 
 
 ## Setting Up 
