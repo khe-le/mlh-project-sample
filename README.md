@@ -6,11 +6,11 @@ The project's landing page: https://dawn.so
 
 **What this code sample does**
 
-During an online event, a host can post multiple resources to help attendees better understand the lesson. This code sample demonstrates the functionality to post, update and display resources during in-session events. Each resource consists of a name, URL, and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource, but currently, they have the same permission as the host for the sake of simplicity.
+During an online event, a host can post multiple resources to help attendees better understand the lesson. This code sample demonstrates the functionality to post and remove resources during an in-session event. Each resource consists of a name, URL, and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource, but currently, they have the same permission as the host for the sake of simplicity.
 
 **How it works**
 
-Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL subscription query. Whenever a resource is added or removed on the frontend, the page uses the GraphQL mutation queries to update the Hasura database. No backend server is needed. On the Hasura console, I also set up a future database schema for the full functionality, but I only use part of it for this code sample.
+Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL subscription query. Whenever a resource is added or removed on the frontend, the page uses the GraphQL mutation queries to update the Hasura database. No backend server is needed. On the Hasura console, I also set up a future database schema for other features, but I only use part of it for this code sample.
 
 
 ## Setting Up 
