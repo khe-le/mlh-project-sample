@@ -10,18 +10,20 @@ During an online event, a host can post multiple resources to help attendees bet
 
 **How it works**
 
-Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL subscription query. Whenever a resource is added or removed on the frontend, the page uses the GraphQL mutation queries to update the Hasura database. No backend server is needed. On the Hasura console, I also set up a future database schema for the functionality, but I only use part of it for this code sample.
+Using Hasura Cloud, I deployed a Hasura GraphQL engine with access to a Postgres database. The demo webpage subscribes to this database through a GraphQL endpoint to get real-time resource data with GraphQL subscription query. Whenever a resource is added or removed on the frontend, the page uses the GraphQL mutation queries to update the Hasura database. No backend server is needed. On the Hasura console, I also set up a future database schema for the full functionality, but I only use part of it for this code sample.
 
 
 ## Setting Up 
+All relative to project root directory
 You will have to set up **Hasura and React** to run this code sample.
 1. Set up Hasura database migrations: https://hasura.io/docs/1.0/graphql/manual/migrations/config-v1/manage-migrations.html#manage-migrations-v1 (use notes for this section as some of the steps are not needed)
+   * Skip step 0, the environment variable is already set to false
    * Note for step 2, I already have a hasura folder in the repo, so just run `cd hasura`
    * Skip step 3 because I already provided you with a migrations folder and files 
    * You can see what migrations are present in the folder but not in the database with `hasura migrate status` 
-   * Step 4: run `hasura console`. From this point on you need to run hasura console to look at the database, and make changes so that the migration files will be created (see DBA before commiting any changes)
+   * Step 4: run `hasura console`. From this point on you need to run hasura console to look at the database, and make changes so that the migration files will be created
    * Step 5 and beyond are not necessary at this time
-2. Set up React: `cd .. && npm install`
+2. Set up React: `npm install`
 ## Starting up Your Environment
 All relative to project root directory
 * Start Hasura in another terminal: `cd hasura && hasura console`
