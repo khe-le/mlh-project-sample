@@ -6,7 +6,7 @@ The project's landing page: https://dawn.so
 
 **What this code sample does**
 
-During an online event, a host can post multiple resources to help attendees better understand the lesson. This code sample demonstrates the functionality to post and remove resources during an in-session event. Each resource consists of a name, URL, and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource. For the sake of simplicity, host and attendee views are the same and they both have the permission to either post or remove resources in this sample.
+During an online event, a host can post multiple resources to help attendees better understand the lesson. This code sample demonstrates the functionality to post and remove resources during an in-session event. Each resource consists of a name, URL, and media type. Attendees, regardless of when they enter the event, should be able to see all posted resources. A deleted resource should be removed for all attending that event. Attendees do not have the permission to either post or remove a resource. In this sample, for the sake of simplicity, host and attendee views are the same and they both have the permission to either post or remove resources.
 
 **How it works**
 
