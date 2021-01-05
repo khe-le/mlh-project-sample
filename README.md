@@ -27,8 +27,7 @@ You will have to set up **Hasura and React** to run this code sample.
 ## Starting up Your Environment
 All relative to project root directory
 * Start Hasura in another terminal: `cd hasura && hasura console`
-  * Should be on port 9695
-  * Again, **only develop in this Hasura console, not port 8080**
+  * Should be on port 9695 (Only develop in this Hasura console)
 * Start React in another terminal: `npm start`
   * Should be on port 3000 
 ## Tech Stack
